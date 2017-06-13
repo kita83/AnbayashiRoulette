@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card-view"
+    card_view:cardBackgroundColor="@color/lime_400"
+    android:layout_width="match_parent"
+    card_view:cardCornerRadius="10dp"
+    card_view:cardElevation="5dp"
+    android:layout_height="200dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/number"
+        android:text="本"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="60dp"
+        android:textSize="36sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/comment"
+        android:text="あたり"
+        android:layout_marginStart="10dp"
+        android:textSize="36sp"
+        android:layout_toEndOf="@id/number"
+        android:layout_alignBaseline="@id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
