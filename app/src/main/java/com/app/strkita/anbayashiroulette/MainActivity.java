@@ -29,8 +29,8 @@ public class MainActivity extends AppCompatActivity {
             ));
         }
 
-//        RecyclerView.Adapter adapter = new AnbayashiAdapter(anbayashi);
-//        recyclerView.setAdapter(adapter);
-//        recyclerView.smoothScrollToPosition(anbayashi.size() - 1);
+        RecyclerView.Adapter adapter = new AnbayashiAdapter(anbayashi);
+        recyclerView.setAdapter(adapter);
+        recyclerView.smoothScrollToPosition(anbayashi.size() - 1);
     }
 }
