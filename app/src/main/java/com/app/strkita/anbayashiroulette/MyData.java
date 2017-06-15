@@ -1,6 +1,7 @@
 package com.app.strkita.anbayashiroulette;
 
 /**
+ *
  * Created by strkita on 2017/06/13.
  */
 
